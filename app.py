@@ -21,7 +21,7 @@ model = gen_ai.GenerativeModel('gemini-pro')
 
 # Display the chatbot's title on the page
 st.title("mEALER : An Recipe generator App")
-
+st.subheader("Made by Dhiraj")
 st.sidebar.header("Input Meal and Preferences")
 
 # User input for ingredients
